@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Yellowtail&display=swap');
+
+:root {
+    --smoky-black: hsla(57, 100%, 4%, 1);
+    --murrey: hsla(331, 100%, 28%, 1);
+    --bittersweet: hsla(358, 100%, 68%, 1);
+}
+
+body {
+    background-color: var(--smoky-black);
+    color: var(--murrey);
+    font-family: 'Yellowtail', cursive;
+}
+
+.messagebox{
+    background: var(--bittersweet);
+    margin: 5vw;
+    border-radius: 10% 30%;
+    display: inline-block;
+}
+
+.message{
+    font-size: 2rem ;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    margin: 5vw;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Pacifico', cursive;
+}
